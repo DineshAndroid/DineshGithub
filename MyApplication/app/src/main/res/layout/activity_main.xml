@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_light"
+    android:fillViewport="false">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Click For run sample"
+            />
+
+        <Button
+            android:id="@+id/btn_db"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:text="DataBase"/>
+
+        <Button
+            android:id="@+id/btn_cp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Content Provider"/>
+        <Button
+            android:id="@+id/btn_anim"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Scene And Animation"/>
+        <Button
+            android:id="@+id/btn_broad_cast"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Broadcast Receiver"/>
+        <Button
+            android:id="@+id/btn_caching"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Caching And LRU"/>
+
+        <Button
+            android:id="@+id/btn_map"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Map"/>
+
+        <Button
+            android:id="@+id/btn_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fragment"/>
+
+        <Button
+            android:id="@+id/btn_intnt_service"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Intent Service"/>
+
+        <Button
+            android:id="@+id/btn_perciable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Parciable Test"/>
+
+        <Button
+            android:id="@+id/btn_webAPi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Web API"/>
+
+        <Button
+            android:id="@+id/btn_G_plus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Google Plus Login"
+            />
+
+        <Button
+            android:id="@+id/btn_g_analytics"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Google Analytics"
+            />
+
+        <Button
+            android:id="@+id/btn_crashlytics"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Generate Crashlytics"
+            />
+
+        <Button
+            android:id="@+id/btn_twitter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="twitter Login"
+            />
+
+        <Button
+            android:id="@+id/btn_facebook"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Facebook Login"
+            />
+
+    </LinearLayout>
+</ScrollView>

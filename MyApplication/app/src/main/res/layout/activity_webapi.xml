@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btnGet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="basicHttp"
+        android:text="httpurl GET method"/>
+
+
+
+    <Button
+        android:id="@+id/btnWeb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HttpUrl  Post Method"
+        android:onClick="postAPI"        />
+
+    <Button
+        android:id="@+id/btnGetretrofit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Using Retrofit"
+        android:onClick="getRetrofit"/>
+
+    <Button
+        android:id="@+id/btnGetVolley"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Using Volley Get Method"
+        android:onClick="getVolley"/>
+
+    <Button
+        android:id="@+id/btnPostVolley"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Using Volley Post Method"
+        android:onClick="postVolley"/>
+
+
+    <!--<TextView
+        android:id="@+id/tv_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />-->
+
+
+
+</LinearLayout>

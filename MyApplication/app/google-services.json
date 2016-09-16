@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "262767387957",
+    "project_id": "my-application-142004"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:262767387957:android:0c8dbdd0712cbe9c",
+        "android_client_info": {
+          "package_name": "practice.com.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "262767387957-gq4kntn93k8frbd9g2mc1jrdh8mc3icb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "practice.com.myapplication",
+            "certificate_hash": "2F42EF26A21B2DACBF679EE46B3A24C22BBF87B5"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqBBi9r47TpyU7w01hTQ-tSOqBiLINwjw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 2,
+          "analytics_property": {
+            "tracking_id": "UA-83454138-1"
+          }
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

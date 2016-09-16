@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="For result see LOG In Console"
+        android:layout_margin="30dp"/>
+
+    <Button
+        android:id="@+id/btnNormal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Normal Broadcast reciever"
+        android:onClick="normal"/>
+
+
+    <Button
+        android:id="@+id/btnOredred"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ordred Broadcast reciver"
+        android:onClick="ordred"/>
+
+
+
+
+</LinearLayout>
